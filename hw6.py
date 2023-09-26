@@ -12,3 +12,8 @@ c.execute('''INSERT INTO users VALUES('adi', 25, 'tey')''')
 
 db3.commit()
 db3.close()
+
+
+
+
+
