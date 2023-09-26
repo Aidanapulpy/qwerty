@@ -1,5 +1,5 @@
 import sqlite3
-db3= sqlite3.connect ('test.db3')
+db3= sqlite3.connect ('test2.db')
 c=db3.cursor()
 
 c.execute('''CREATE TABLE IF NOT EXISTS users(
