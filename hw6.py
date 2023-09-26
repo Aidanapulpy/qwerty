@@ -7,6 +7,8 @@ name TEXT,
 age INTEGER,
 password TEXT )''')
 c.execute('''INSERT INTO users VALUES('SHAHA', 23, 'sad2')''')
+c.execute('''INSERT INTO users VALUES('alina', 18, 'vabdb')''')
+c.execute('''INSERT INTO users VALUES('adi', 25, 'tey')''')
 
 db3.commit()
 db3.close()
