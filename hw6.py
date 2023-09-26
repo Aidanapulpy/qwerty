@@ -8,5 +8,6 @@ age INTEGER,
 password TEXT )''')
 c.execute('''INSERT INTO users VALUES('SHAHA', 23, 'sad2')''')
 
+
 db3.commit()
 db3.close()
